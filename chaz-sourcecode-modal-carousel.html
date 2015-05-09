@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Layout Demo</title>
+    <!--Third party libraries should load first 99% of the time-->
+    <!--<link href="Content/bootstrap.min.css" rel="stylesheet" />-->
+    <!--Custom CSS should load last-->
+    <!--<link href="style.css" rel="stylesheet" />-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Optional theme -->
+    <link href="Content/space-theme.css" rel="stylesheet" />
+
+    <!--Custom css-->
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <!--99% content should be displayed in the body-->
+    <!--<div id="divNavBar" class="container">
+         <div id="divNavBar" class="container">
+    <div id="divMenu" class="nav navbar-default navbar-fixed-top">
+    <!--begin navigation menu-->
+    
+    <div id="divModal" class="modal fade">
+        <div class="modal-dialog"> 
+            <div class="modal-content"> 
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">
+                        WELCOME TO YOUR FIRST MODAL!
+                    </h4>
+                </div> <!--Header-->
+                <div class="modal-body">
+                    This is your modal! :D
+                </div> <!--Body-->
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div> <!--Footer-->
+            </div> <!--Modal content wrapper-->
+        </div> <!--Modal dialog wrapper-->
+    </div> <!--Outer modal wrapper-->
+    
+    <div id="divNavBar" class="container">
+        <!--begin navigation menu-->
+        <div id="divMenu" class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar-header">
+                <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="glyphicon glyphicon-align-justify"></span>
+                </button>
+                <div id="divLogo">
+                    <h2>LOGO</h2>
+                </div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav">
+                        <a href="#divSectionOne">Section One</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#divSectionTwo">Section Two</a>
+                    </li>
+                    <li class="nav">
+                        <a href="#divSectionThree">Section Three</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>    <!--end navigation menu-->
+    <div class="row">
+        <!--<div class="col-xs-4 col-xs-offset-4">-->
+            <div id="divCarousel" class="carousel slide">
+                <!--Outer carousel wrapper-->
+                <!--Carousel navigation-->
+                <ol class="carousel-indicators">
+                    <li data-target="#divCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#divCarousel" data-slide-to="1"></li>
+                    <li data-target="#divCarousel" data-slide-to="2"></li>
+                    <li data-target="#divCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <!--Inner carousel wrapper-->
+                    <!--Reserverd for the displayed content-->
+                    <div class="item active">
+                        <img src="http://support.horizondatasys.com/images/news/microsoft.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="http://support.horizondatasys.com/images/news/microsoft.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="http://support.horizondatasys.com/images/news/microsoft.jpg" />
+                    </div>
+                    <div class="item">
+                        <img src="http://support.horizondatasys.com/images/news/microsoft.jpg" />
+                    </div>
+                </div>
+                <span href="#divCarousel" class="carousel-control right" data-slide="next">
+                    <span class="icon-next"></span>
+                </span>
+                <span href="#divCarousel" class="carousel-control left" data-slide="prev">
+                    <span class="icon-prev"></span>
+                </span>
+            </div>
+        <!--</div>-->
+    </div>
+    <div id="divSectionOne" class="container">
+        <!--begin section one-->
+        <article class="row">
+            <section>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac leo sit amet quam semper porttitor. Duis ultricies velit id urna volutpat, nec congue quam vestibulum.
+                Vestibulum et tempor nisi. Sed sollicitudin, augue id fermentum congue, quam leo imperdiet lectus, quis elementum ipsum tortor semper nulla. Nam at enim nulla. Donec efficitur felis nisl,
+                quis accumsan arcu luctus faucibus. Curabitur ullamcorper vehicula sollicitudin. Donec congue suscipit ex, nec suscipit nibh sodales in. Donec egestas ante sed malesuada lacinia. Class aptent taciti
+                sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec venenatis magna non lectus ornare, vel vehicula ipsum bibendum. In efficitur gravida feugiat. Cras nec
+                est et arcu ullamcorper maximus.
+            </section>
+        </article>
+    </div> <!--end section one-->
+
+    <div id="divSectionTwo" class="container">
+        <!--begin section two-->
+        <div class="row">
+            <article>
+                <section class="col-md-8">
+                    uris et urna eu urna sollicitudin cursus in at metus. In hac habitasse platea dictumst. Morbi finibus nunc viverra tristique vestibulum.
+                    Pellentesque volutpat tempor mi, in congue felis ullamcorper in. Vivamus et ligula at ipsum vehicula tincidunt. Duis pellentesque sit amet
+                    neque eu fringilla. Fusce tincidunt faucibus elementum. Donec at orci in ipsum elementum consectetur. Morbi non leo non nisl dictum vestibulum
+                    quis nec est. Curabitur pharetra ante a magna viverra pellentesque. Duis pellentesque blandit diam, eu porttitor orci varius sit amet. Sed
+                    efficitur ex vitae libero ullamcorper porttitor. Pellentesque sodales turpis arcu, sit amet semper augue rhoncus eget. Praesent nec est lobortis,
+                    volutpat mi a, tincidunt justo. Donec ligula magna, lobortis quis sodales ut, fermentum sit amet libero.
+                </section>
+            </article>
+            <article>
+                <section class="col-md-4">
+                    Morbi mollis sapien tortor, vitae ultrices ante tempus et. Nunc elementum felis nisi,
+                    vitae lacinia purus egestas non. Maecenas eleifend justo non cursus eleifend. Quisque viverra eu leo
+                    sed rhoncus. Cras vitae felis vehicula, feugiat nisi mattis, rutrum lorem. Nam malesuada scelerisque quam
+                    sit amet dignissim. Donec venenatis sapien ut pretium ullamcorper. In hac habitasse platea dictumst.
+                    Ut eget ligula aliquet, porta risus sed, semper odio. Aenean turpis ex, rhoncus eu tempor pharetra, malesuada ac sem.
+                    Sed non mi sodales, bibendum arcu et, rutrum elit. Sed finibus nisl quis maximus vestibulum. Pellentesque condimentum
+                    vestibulum nunc, ultrices pretium velit varius a.
+                </section>
+            </article>
+        </div>
+    </div> <!--end section two-->
+
+    <div id="divSectionThree" class="container-fluid">
+        <!--begin section three-->
+        <div>
+            <table class="table table-striped table-bordered table-hover table-condensed table-responsive">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ASP.NET MVC C#</td>
+                        <td>ASP.NET Web API C#</td>
+                    </tr>
+                    <tr>
+                        <td>OWIN</td>
+                        <td>SignalR</td>
+                    </tr>
+                    <tr>
+                        <td>Entity Framework</td>
+                        <td>Identity</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>jQuery</td>
+                    </tr>
+                    <tr>
+                        <td>AngularJS</td>
+                        <td>Bootstrap</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div> <!--end section three-->
+
+    <div class="container">
+        <!--section four-->
+        <form class="col-xs-6 col-xs-offset-3">
+            <div class="form-group">
+                <label>Email</label>
+                <input class="form-control" placeholder="Email" />
+            </div>
+            <div class="form-group">
+                <label>Options</label>
+                <select class="form-control">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                    <option>Option 4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="button" class="btn btn-info cb-rigid" value="bootstrap" onclick="$('#divModal').modal('show')" />
+            </div>
+        </form>
+    </div> <!--end section four-->
+    <!--
+        CRUD
+        Create data
+        Read (display) data
+        Update data
+        Delete data
+
+    <!--Industry standard to load JavaScript last in the body-->
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <!--<script src="Scripts/bootstrap.min.js"></script>-->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $("#divCarousel").carousel({ interval: 10000});
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="container">
+    <form>
+        <input type="text" placeholder="Email!" />
+        <input type="text" placeholder="First Name" value="Marisa!" />
+        <input type="button" value="HELLO I AM A BUTTON" />
+        <select>
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Red">Red</option>
+            <option value="Orange">Orange</option>
+        </select>
+        <textarea placeholder="I AM A TEXT AREA!"></textarea>
+        <!--<input type="date" /> <!--Google chrome only!-->
+            <
+<!--input type="password" />
+<input type="password" />
+<input type="submit" />
+<input type="color" />
+<input type="checkbox" />
+<div>
+    <input type="radio" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="radio" />
+    <input type="radio" />
+</div>-->
+<!--<input type="hidden" />--> <!--Avoid me!-->
+<!--<input type="file" />
+    </form>
+</div>
+<footer id="footer">&copy; Layout Demo</footer>-->
